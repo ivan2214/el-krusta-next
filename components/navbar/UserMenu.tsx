@@ -62,8 +62,11 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
         <DropdownMenuGroup>
           {currentUser ? (
             <>
-              <DropdownMenuItem onClick={() => router.push("/appointments")}>
-                Mis Turnos
+              <DropdownMenuItem onClick={() => router.push("/favorites")}>
+                Mis favoritos
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => router.push("/orders")}>
+                Mis ordenes
               </DropdownMenuItem>
               <DropdownMenuItem onClick={() => router.push("/profile")}>
                 Perfil

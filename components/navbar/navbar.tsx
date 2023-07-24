@@ -18,7 +18,7 @@ const Navbar: React.FC<NavbarProps> = async ({ currentUser }) => {
   const categories = await getCategories();
 
   return (
-    <div className="container border-b">
+    <div className="container sticky top-0 border-b bg-background z-50">
       <Container>
         <div className=" flex h-16 items-center justify-center sm:px-6 md:px-8">
           <Link href="/" className=" hidden md:flex ">
