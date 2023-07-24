@@ -7,7 +7,7 @@ import { Search } from "@/app/(root)/components/search";
 import Container from "../ui/container";
 import Link from "next/link";
 import NavbarActions from "./NavBarActions";
-import getCategories from "@/actions/get-categories";
+import getCategories from "@/actions/getCategories";
 import MainNav from "./MainNav";
 
 interface NavbarProps {

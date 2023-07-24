@@ -1,8 +1,8 @@
 import ProductList from '@/components/ProductList'
 import Gallery from '@/components/gallery'
 import Info from '@/components/info'
-import getProduct from '@/actions/get-product'
-import getProducts from '@/actions/get-products'
+import getProduct from '@/actions/getProduct'
+import getProducts from '@/actions/getProducts'
 import Container from '@/components/ui/container'
 
 export const revalidate = 120

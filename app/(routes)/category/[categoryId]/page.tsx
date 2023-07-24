@@ -2,10 +2,10 @@ import Container from "@/components/ui/container";
 
 import NoResults from "@/components/ui/no-results";
 
-import getProducts from "@/actions/get-products";
-import getCategory from "@/actions/get-category";
-import getSizes from "@/actions/get-sizes";
-import getColors from "@/actions/get-colors";
+import getProducts from "@/actions/getProducts";
+import getCategory from "@/actions/getCategory";
+import getSizes from "@/actions/getSizes";
+import getColors from "@/actions/getColors";
 
 import Filter from "./components/filter";
 import MobileFilters from "./components/mobile-filters";

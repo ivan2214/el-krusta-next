@@ -1,11 +1,10 @@
-export { default as get-billboard } from './get-billboard';
-export { default as get-categories } from './get-categories';
-export { default as get-category } from './get-category';
-export { default as get-colors } from './get-colors';
-export { default as get-product } from './get-product';
-export { default as get-products } from './get-products';
-export { default as get-sizes } from './get-sizes';
+export { default as getBillboard } from './getBillboard';
+export { default as getCategories } from './getCategories';
+export { default as getCategory } from './getCategory';
+export { default as getColors } from './getColors';
 export { default as getCurrentUser } from './getCurrentUser';
-export { default as getOrders } from './getOrders';
+export { default as getProduct } from './getProduct';
+export { default as getProducts } from './getProducts';
 export { default as getSession } from './getSession';
+export { default as getSizes } from './getSizes';
 export * from './index';
