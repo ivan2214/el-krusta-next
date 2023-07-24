@@ -7,10 +7,11 @@ import GoogleProvider from 'next-auth/providers/google'
 
 
 import prisma from '@/app/libs/prismadb'
-import { DefaultAdapter } from 'next-auth/adapters'
+
 
 export const authOptions: AuthOptions = {
-  adapter: PrismaAdapter(prisma) as DefaultAdapter,
+  //@ts-ignore
+  adapter: PrismaAdapter(prisma),
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID as string,
