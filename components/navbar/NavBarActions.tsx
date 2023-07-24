@@ -14,9 +14,8 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-
-import CartItem from "@/app/(routes)/cart/components/cart-item";
-import Summary from "@/app/(routes)/cart/components/summary";
+import CartItem from "@/components/cart-item";
+import Summary from "@/components/summary";
 
 const NavbarActions = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -33,13 +32,7 @@ const NavbarActions = () => {
   }
 
   return (
-    <div className="flex items-center gap-x-4 ">
-      {/*   <Button
-        onClick={() => router.push("/cart")}
-        
-      >
-       
-      </Button> */}
+    <div className="flex items-center gap-x-4">
       <Sheet>
         <SheetTrigger>
           <Button
@@ -54,15 +47,14 @@ const NavbarActions = () => {
         </SheetTrigger>
         <SheetContent>
           <SheetHeader>
-            <SheetTitle>Shopping Cart</SheetTitle>
-            <SheetDescription>View your shopping cart</SheetDescription>
+            <SheetTitle>Carrito</SheetTitle>
           </SheetHeader>
-          <div className="gap-x-12 lg:grid lg:grid-cols-12 lg:items-start">
-            <div className="lg:col-span-7">
+          <div className="flex h-full w-full flex-col items-start gap-4  overflow-y-scroll">
+            <div className="mt-3 overflow-y-scroll lg:overflow-y-auto">
               {cart.items.length === 0 && (
                 <p className="text-neutral-500">No items added to cart.</p>
               )}
-              <ul>
+              <ul className="border-b">
                 {cart.items.map((item) => (
                   <CartItem key={item.id} data={item} />
                 ))}
