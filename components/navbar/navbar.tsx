@@ -20,19 +20,19 @@ const Navbar: React.FC<NavbarProps> = async ({ currentUser }) => {
   return (
     <div className="container border-b">
       <Container>
-        <div className="relative flex h-16 items-center px-4 sm:px-6 lg:px-8">
-          <Link href="/" className="ml-4 flex gap-x-2 lg:ml-0">
-            <p className="text-xl font-bold">STORE</p>
+        <div className=" flex h-16 items-center justify-center sm:px-6 md:px-8">
+          <Link href="/" className=" hidden md:flex ">
+            <p className="text-sm font-bold md:text-xl">El Krusta</p>
           </Link>
           <MainNav data={categories} />
-          <section className="ml-auto flex space-x-2">
-            <div className=" flex items-center space-x-4">
-              <Search />
+          <section className="flex w-full items-center justify-center gap-2 md:ml-auto md:w-auto">
+            <div className="flex items-center justify-center gap-x-4 md:space-x-4">
+              <Search className="hidden" />
               <ThemeToggle />
               <UserMenu currentUser={currentUser} />
             </div>
-            <MainNavMobile data={categories} />
             <NavbarActions />
+            <MainNavMobile data={categories} />
           </section>
         </div>
       </Container>
