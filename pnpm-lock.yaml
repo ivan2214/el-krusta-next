@@ -24,7 +24,7 @@ specifiers:
   clsx: 2.0.0
   lucide-react: ^0.263.0
   next: 13.4.12
-  next-auth: 4.22.1
+  next-auth: ^4.22.1
   next-themes: 0.2.1
   postcss: 8.4.27
   prettier: ^3.0.0
@@ -63,9 +63,9 @@ dependencies:
   bcrypt: 5.1.0
   class-variance-authority: 0.7.0
   clsx: 2.0.0
-  lucide-react: 0.263.0_react@18.2.0
+  lucide-react: 0.263.1_react@18.2.0
   next: 13.4.12_biqbaboplfbrettd7655fr4n2y
-  next-auth: 4.22.1_54ux7fu2vrztxgcjbkegvwjefy
+  next-auth: 4.22.3_54ux7fu2vrztxgcjbkegvwjefy
   next-themes: 0.2.1_54ux7fu2vrztxgcjbkegvwjefy
   postcss: 8.4.27
   query-string: 8.1.0
@@ -997,7 +997,7 @@ packages:
   /@swc/helpers/0.5.1:
     resolution: {integrity: sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==}
     dependencies:
-      tslib: 2.6.0
+      tslib: 2.6.1
     dev: false
 
   /@types/bcrypt/5.0.0:
@@ -1081,7 +1081,7 @@ packages:
     resolution: {integrity: sha512-xcLxITLe2HYa1cnYnwCjkOO1PqUHQpozB8x9AR0OgWN2woOBi5kSDVxKfd0b7sb1hw5qFeJhXm9H1nu3xSfLeQ==}
     engines: {node: '>=10'}
     dependencies:
-      tslib: 2.6.0
+      tslib: 2.6.1
     dev: false
 
   /asynckit/0.4.0:
@@ -1155,7 +1155,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001517
-      electron-to-chromium: 1.4.468
+      electron-to-chromium: 1.4.469
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11_browserslist@4.21.9
     dev: false
@@ -1294,8 +1294,8 @@ packages:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
     dev: false
 
-  /electron-to-chromium/1.4.468:
-    resolution: {integrity: sha512-6M1qyhaJOt7rQtNti1lBA0GwclPH+oKCmsra/hkcWs5INLxfXXD/dtdnaKUYQu/pjOBP/8Osoe4mAcNvvzoFag==}
+  /electron-to-chromium/1.4.469:
+    resolution: {integrity: sha512-HRN9XQjElxJBrdDky5iiUUr3eDwXGTg6Cp4IV8MuNc8VqMkYSneSnIe6poFKx9PsNzkudCgaWCBVxwDqirwQWQ==}
     dev: false
 
   /emoji-regex/8.0.0:
@@ -1561,8 +1561,8 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /lucide-react/0.263.0_react@18.2.0:
-    resolution: {integrity: sha512-F+rHswbbI1xuDZ/OzofiJZJVlBPOIYVVST705cPdRLImJ5aOJNXYaFBPNo3qdUV0iEG/4nZeiUtLSHO2qU2ISw==}
+  /lucide-react/0.263.1_react@18.2.0:
+    resolution: {integrity: sha512-keqxAx97PlaEN89PXZ6ki1N8nRjGWtDa4021GFYLNj0RgruM5odbpl8GHTExj0hhPq3sF6Up0gnxt6TSHu+ovw==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -1651,8 +1651,8 @@ packages:
     hasBin: true
     dev: false
 
-  /next-auth/4.22.1_54ux7fu2vrztxgcjbkegvwjefy:
-    resolution: {integrity: sha512-NTR3f6W7/AWXKw8GSsgSyQcDW6jkslZLH8AiZa5PQ09w1kR8uHtR9rez/E9gAq/o17+p0JYHE8QjF3RoniiObA==}
+  /next-auth/4.22.3_54ux7fu2vrztxgcjbkegvwjefy:
+    resolution: {integrity: sha512-XAgy9xV3J2eJOXrQhmxdjV6MLM29ibm6WtMXc3KY6IPZeApf+SuBuPvlqCUfbu5YsAzlg9WSw6u01dChTfeZOA==}
     peerDependencies:
       next: ^12.2.5 || ^13
       nodemailer: ^6.6.5
@@ -2090,7 +2090,7 @@ packages:
       '@types/react': 18.2.15
       react: 18.2.0
       react-style-singleton: 2.2.1_tznpbkknyqq5lcv5sgrl332jvu
-      tslib: 2.6.0
+      tslib: 2.6.1
     dev: false
 
   /react-remove-scroll/2.5.5_tznpbkknyqq5lcv5sgrl332jvu:
@@ -2107,7 +2107,7 @@ packages:
       react: 18.2.0
       react-remove-scroll-bar: 2.3.4_tznpbkknyqq5lcv5sgrl332jvu
       react-style-singleton: 2.2.1_tznpbkknyqq5lcv5sgrl332jvu
-      tslib: 2.6.0
+      tslib: 2.6.1
       use-callback-ref: 1.3.0_tznpbkknyqq5lcv5sgrl332jvu
       use-sidecar: 1.1.2_tznpbkknyqq5lcv5sgrl332jvu
     dev: false
@@ -2126,7 +2126,7 @@ packages:
       get-nonce: 1.0.1
       invariant: 2.2.4
       react: 18.2.0
-      tslib: 2.6.0
+      tslib: 2.6.1
     dev: false
 
   /react/18.2.0:
@@ -2376,8 +2376,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: false
 
-  /tslib/2.6.0:
-    resolution: {integrity: sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==}
+  /tslib/2.6.1:
+    resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
     dev: false
 
   /typescript/5.1.6:
@@ -2409,7 +2409,7 @@ packages:
     dependencies:
       '@types/react': 18.2.15
       react: 18.2.0
-      tslib: 2.6.0
+      tslib: 2.6.1
     dev: false
 
   /use-sidecar/1.1.2_tznpbkknyqq5lcv5sgrl332jvu:
@@ -2425,7 +2425,7 @@ packages:
       '@types/react': 18.2.15
       detect-node-es: 1.1.0
       react: 18.2.0
-      tslib: 2.6.0
+      tslib: 2.6.1
     dev: false
 
   /use-sync-external-store/1.2.0_react@18.2.0:
